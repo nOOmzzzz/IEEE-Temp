@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Juan Chunga",
+    "role": "Presidente de Rama",
+    "career": "Ingeniería Mecatrónica",
+    "cycle": "8vo ciclo",
+    "bio": "Miembro activo IEEE por 3 años. Anteriormente se desempeñó como Coordinador de Recursos Humanos (2021), liderando proyectos de integración estudiantil y vinculación con la Sección Perú.",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80"
+  },
+  {
+    "name": "Yohanna Villanueva",
+    "role": "Vicepresidenta de Rama",
+    "career": "Ingeniería Mecatrónica",
+    "cycle": "7mo ciclo",
+    "bio": "Miembro IEEE por 3 años. Ejerció como Secretaria General en la gestión 2021, coordinando relaciones académicas con directores de carrera y organizaciones aliadas.",
+    "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&auto=format&fit=crop&q=80"
+  },
+  {
+    "name": "Amelyn Gonzales",
+    "role": "Tesorera General",
+    "career": "Ingeniería Mecatrónica",
+    "cycle": "7mo ciclo",
+    "bio": "Miembro IEEE por 2 años. Fue Vicepresidenta del Grupo de Afinidad WIE UPC en el 2020. Administra los presupuestos y fondos para conferencias y proyectos.",
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80"
+  },
+  {
+    "name": "Desiree Morales",
+    "role": "Secretaria General",
+    "career": "Ingeniería Electrónica",
+    "cycle": "5to ciclo",
+    "bio": "Voluntaria destacada de la gestión 2021 y miembro activo del equipo de desarrollo de hardware en el proyecto satelital Killakuk de AESS UPC.",
+    "avatar": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=400&auto=format&fit=crop&q=80"
+  },
+  {
+    "name": "Diego Calderón",
+    "role": "Coordinador de Recursos Humanos",
+    "career": "Ingeniería Mecatrónica",
+    "cycle": "5to ciclo",
+    "bio": "Encargado de la captación, onboarding, bienestar y evaluación de desempeño de los voluntarios y miembros activos de todos los capítulos técnicos.",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80"
+  },
+  {
+    "name": "Jose Revilla",
+    "role": "Webmaster & Tecnología",
+    "career": "Ingeniería Mecatrónica",
+    "cycle": "9no ciclo",
+    "bio": "Voluntario en el capítulo AESS UPC para el proyecto CanSat. Desarrollador web y gestor de la infraestructura digital y plataformas de la Rama.",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80"
+  },
+  {
+    "name": "Pamela Diaz",
+    "role": "Publicista & Diseño Creativo",
+    "career": "Ingeniería Mecatrónica",
+    "cycle": "7mo ciclo",
+    "bio": "Miembro IEEE por 2 años. Presidenta de WIE UPC en el periodo 2021. Dirige la identidad visual institucional, material publicitario y campañas.",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop&q=80"
+  },
+  {
+    "name": "Stephanny Sánchez",
+    "role": "Coordinadora de Marketing Digital",
+    "career": "Ingeniería de Redes y Telecomunicaciones",
+    "cycle": "8vo ciclo",
+    "bio": "Ex-Vicepresidenta del capítulo ComSoc UPC (2021). Especialista en posicionamiento en redes sociales, analítica y cobertura de eventos técnicos.",
+    "avatar": "https://images.unsplash.com/photo-1548142813-c348350df52b?w=400&auto=format&fit=crop&q=80"
+  }
+]

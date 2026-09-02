@@ -1,0 +1,32 @@
+[
+  {
+    "question": "¿Qué es la Rama Estudiantil IEEE UPC?",
+    "answer": "La Rama Estudiantil IEEE UPC es una organización académica y técnica oficial respaldada por el IEEE (Institute of Electrical and Electronics Engineers) y la Universidad Peruana de Ciencias Aplicadas. Reúne a estudiantes y docentes apasionados por el avance de la tecnología para beneficio de la humanidad, ofreciendo proyectos de investigación, networking internacional, talleres especializados y conferencias.",
+    "category": "General"
+  },
+  {
+    "question": "¿Cómo puedo unirme como miembro oficial de IEEE?",
+    "answer": "Para afiliarte, ingresa al portal oficial de IEEE (ieee.org/join), crea tu cuenta institucional o personal, selecciona la membresía 'Student Member' y asigna tu afiliación a la Universidad Peruana de Ciencias Aplicadas (UPC). Como estudiante en Perú, accedes a tarifas preferenciales con hasta 50% de descuento bajo el programa de economías en desarrollo (Future50).",
+    "category": "Membresía"
+  },
+  {
+    "question": "¿Cómo me inscribo a un capítulo técnico específico (AESS, ComSoc, IAS, RAS, WIE, EMBS)?",
+    "answer": "Una vez que eres miembro IEEE Student, puedes añadir sociedades técnicas desde tu perfil de IEEE por una cuota anual mínima (muchas de ellas gratuitas o con tarifa especial para estudiantes). Además, puedes unirte a las actividades locales de los capítulos en la UPC completando los formularios de convocatoria en sus respectivos Linktree o postulando a las convocatorias semestrales de voluntariado.",
+    "category": "Capítulos"
+  },
+  {
+    "question": "¿Cuáles son los principales beneficios de ser miembro IEEE?",
+    "answer": "Entre los beneficios más destacados se encuentran: 1) Acceso a la biblioteca digital IEEE Xplore con miles de papers y normas técnicas; 2) Correo electrónico profesional con alias @ieee.org y suite Google Workspace; 3) Descuentos significativos en congresos y conferencias internacionales; 4) Acceso a la red global de networking IEEE Collabratec; 5) Postulación a becas de investigación, premios y viajes internacionales; 6) Desarrollo de liderazgo mediante cargos directivos.",
+    "category": "Membresía"
+  },
+  {
+    "question": "¿Dónde puedo consultar el Estatuto Oficial de la Rama IEEE UPC?",
+    "answer": "El Estatuto 2025 de la Rama Estudiantil IEEE UPC define los derechos, deberes, estructura orgánica, procedimientos electorales y régimen disciplinario de todos los miembros. Está disponible públicamente para consulta en la carpeta de documentación oficial de la Rama y en nuestra plataforma digital.",
+    "category": "Institucional"
+  },
+  {
+    "question": "¿Puedo proponer un nuevo taller, proyecto o ponencia técnica?",
+    "answer": "¡Por supuesto! Fomentamos activamente las propuestas de la comunidad universitaria. Puedes enviarnos tu propuesta a través de nuestro formulario de contacto web, o escribiendo directamente a nuestras redes oficiales (@ieee.upc) con el temario, ponente sugerido y fecha estimada.",
+    "category": "Eventos"
+  }
+]

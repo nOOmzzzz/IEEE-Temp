@@ -1,0 +1,198 @@
+/* ============================================================
+   IEEE UPC — Light Theme Edition (PixelWhisk Studio Style)
+   Palette: Pure White & Slate, UPC Red (#E30613), IEEE Blue (#00629B)
+   ============================================================ */
+
+:root {
+  --bg-main: #FAFBFC;
+  --bg-card: #FFFFFF;
+  --bg-card-alt: #F1F5F9;
+  --border-color: #E2E8F0;
+  --border-hover: #CBD5E1;
+  
+  --upc-red: #E30613;
+  --upc-red-dark: #B3000B;
+  --upc-red-light: #FFECEE;
+  
+  --ieee-blue: #00629B;
+  --ieee-navy: #002855;
+  --ieee-cyan: #0284C7;
+  --text-main: #0F172A;
+  --text-muted: #64748B;
+}
+
+/* Base Body */
+body {
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+/* Light Blueprint Grid Background */
+.bg-grid-light {
+  background-image: 
+    linear-gradient(to right, rgba(15, 23, 42, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(15, 23, 42, 0.04) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.bg-radial-soft {
+  background: radial-gradient(circle at 50% 0%, rgba(227, 6, 19, 0.05) 0%, rgba(0, 98, 155, 0.04) 40%, transparent 70%);
+}
+
+/* PixelWhisk Light Badges & Labels */
+.pw-label-red {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border: 1px solid rgba(227, 6, 19, 0.3);
+  color: var(--upc-red);
+  background: var(--upc-red-light);
+}
+
+.pw-label-blue {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border: 1px solid rgba(0, 98, 155, 0.25);
+  color: var(--ieee-blue);
+  background: #E0F2FE;
+}
+
+/* Bento Cards (Light Mode) */
+.pw-card-light {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 1.25rem;
+  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.04), 0 2px 6px -1px rgba(15, 23, 42, 0.02);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+}
+
+.pw-card-light:hover {
+  border-color: rgba(227, 6, 19, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 20px 35px -10px rgba(227, 6, 19, 0.08), 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* Buttons PixelWhisk Light */
+.btn-upc-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--upc-red);
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 0.875rem;
+  padding: 0.85rem 1.5rem;
+  border-radius: 0.75rem;
+  transition: all 0.2s ease;
+  border: 1px solid var(--upc-red);
+  box-shadow: 0 4px 14px 0 rgba(227, 6, 19, 0.35);
+}
+
+.btn-upc-primary:hover {
+  background-color: var(--upc-red-dark);
+  border-color: var(--upc-red-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(227, 6, 19, 0.45);
+}
+
+.btn-upc-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  color: var(--text-main);
+  font-weight: 700;
+  font-size: 0.875rem;
+  padding: 0.85rem 1.5rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--border-color);
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.btn-upc-secondary:hover {
+  background-color: var(--bg-card-alt);
+  border-color: #CBD5E1;
+  color: var(--ieee-navy);
+}
+
+/* Infinite Marquee */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.marquee-container {
+  overflow: hidden;
+  user-select: none;
+  display: flex;
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+.marquee-content {
+  display: flex;
+  flex-shrink: 0;
+  gap: 2.5rem;
+  align-items: center;
+  animation: marquee 25s linear infinite;
+}
+
+.marquee-content:hover {
+  animation-play-state: paused;
+}
+
+/* Pixel Navigation Arrows */
+.pixel-nav-btn-light {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: #FFFFFF;
+  border: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-main);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.pixel-nav-btn-light:hover {
+  background: var(--bg-card-alt);
+  border-color: var(--upc-red);
+  color: var(--upc-red);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}

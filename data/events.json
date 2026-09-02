@@ -1,0 +1,42 @@
+[
+  {
+    "id": "icai-2025",
+    "title": "Congreso Internacional ICAI (International Conference on Applied Informatics)",
+    "date": "Octubre 2025",
+    "category": "Congreso",
+    "badge": "Internacional",
+    "description": "Evento internacional co-organizado con IEEE donde ponentes de más de 15 países exponen artículos indexados en IEEE Xplore sobre Inteligencia Artificial, Ciencia de Datos y Bioinformática.",
+    "location": "Campus UPC Monterrico / Formato Híbrido",
+    "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "hackathon-intercon",
+    "title": "Hackatón Intercon: Innovación en Ciudades Inteligentes",
+    "date": "Noviembre 2025",
+    "category": "Competencia",
+    "badge": "Hackatón",
+    "description": "Desafío de 48 horas continuas donde equipos multidisciplinarios desarrollan soluciones IoT y software para retos reales de sostenibilidad y movilidad urbana.",
+    "location": "Laboratorios de Innovación UPC",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "cansat-competition",
+    "title": "Taller y Lanzamiento Oficial CanSat UPC",
+    "date": "Diciembre 2025",
+    "category": "Aeroespacial",
+    "badge": "Proyecto AESS",
+    "description": "Fase de pruebas en tierra y lanzamiento de prototipos de microsatélites cilíndricos con telemetría en tiempo real y transmisión radial a estación terrena.",
+    "location": "Valle de Mala, Lima",
+    "image": "assets/img/cansat-upc.jpg"
+  },
+  {
+    "id": "bootcamp-ia-devops",
+    "title": "Bootcamp Especializado: MLOps & Arquitectura Cloud",
+    "date": "Enero 2026",
+    "category": "Taller",
+    "badge": "Capacitación",
+    "description": "Serie de 4 sesiones teórico-prácticas gratuitas para miembros IEEE sobre despliegue de modelos de Machine Learning, contenedores Docker y CI/CD pipelines.",
+    "location": "Virtual vía Microsoft Teams / Discord",
+    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80"
+  }
+]
