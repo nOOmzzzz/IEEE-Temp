@@ -44,35 +44,37 @@ body {
   background: radial-gradient(circle at 50% 0%, rgba(227, 6, 19, 0.05) 0%, rgba(0, 98, 155, 0.04) 40%, transparent 70%);
 }
 
-/* PixelWhisk Light Badges & Labels */
+/* Editorial Subtitles & Overlines (Clean, Fluid, No Vibe-Coding Pills) */
 .pw-label-red {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.35rem 0.85rem;
-  border-radius: 9999px;
-  font-size: 0.75rem;
+  padding: 0;
+  border-radius: 0;
+  font-size: 0.875rem;
   font-weight: 700;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  border: 1px solid rgba(227, 6, 19, 0.3);
+  letter-spacing: 0.015em;
+  text-transform: none;
+  border: none;
   color: var(--upc-red);
-  background: var(--upc-red-light);
+  background: transparent;
+  line-height: 1.4;
 }
 
 .pw-label-blue {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.35rem 0.85rem;
-  border-radius: 9999px;
-  font-size: 0.75rem;
+  padding: 0;
+  border-radius: 0;
+  font-size: 0.875rem;
   font-weight: 700;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  border: 1px solid rgba(0, 98, 155, 0.25);
+  letter-spacing: 0.015em;
+  text-transform: none;
+  border: none;
   color: var(--ieee-blue);
-  background: #E0F2FE;
+  background: transparent;
+  line-height: 1.4;
 }
 
 /* Bento Cards (Light Mode) */

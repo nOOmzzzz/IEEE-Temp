@@ -307,7 +307,7 @@ const FEATURED_PROJECTS = [
     title: "Proyecto CanSat UPC",
     society: "AESS UPC",
     category: "Ingeniería Aeroespacial",
-    tag: "Competencia Activa",
+    tag: "Competencia activa",
     date: "2025 - 2026",
     description: "Diseño, fabricación y validación en vuelo de un nanosatélite del tamaño de una lata con telemetría en tiempo real LoRa, estación terrena y paracaídas semiesférico.",
     stats: { stat1: "1,000m", label1: "Altitud de Lanzamiento", stat2: "915 MHz", label2: "Enlace Telemetría" },
@@ -318,7 +318,7 @@ const FEATURED_PROJECTS = [
     title: "CubeSat Killakuk",
     society: "AESS UPC",
     category: "Investigación Espacial",
-    tag: "I+D Satelital",
+    tag: "I+D satelital",
     date: "En Desarrollo",
     description: "Diseño conceptual y simulación térmica-orbital de un nanosatélite 1U/2U para el monitoreo multiespectral de recursos hídricos y cultivos agrícolas en los Andes peruanos.",
     stats: { stat1: "1U / 2U", label1: "Factor de Forma", stat2: "550 km", label2: "Órbita LEO" },
@@ -351,7 +351,7 @@ const FEATURED_PROJECTS = [
     title: "Bootcamp MLOps & Arquitectura Cloud",
     society: "RAS & ComSoc UPC",
     category: "Capacitación Práctica",
-    tag: "Certificado IEEE",
+    tag: "Certificación IEEE",
     date: "Enero 2026",
     description: "4 sesiones intensivas sobre entrenamiento distribuido de redes neuronales, contenedores Docker, CI/CD con GitHub Actions y despliegue en la nube.",
     stats: { stat1: "100%", label1: "Gratuito para Miembros", stat2: "4 Módulos", label2: "Laboratorios Hands-on" },
@@ -418,11 +418,12 @@ function renderActiveProject(index) {
   container.innerHTML = `
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
       <div class="lg:col-span-6 space-y-6">
-        <div class="flex items-center space-x-3">
+        <div class="flex items-center flex-wrap gap-2 text-xs sm:text-sm">
           <span class="pw-label-red">${p.tag}</span>
-          <span class="text-xs font-bold text-upc-red">${p.society}</span>
-          <span class="text-xs text-slate-300">·</span>
-          <span class="text-xs text-slate-500 font-semibold">${p.date}</span>
+          <span class="text-slate-300 font-light">·</span>
+          <span class="font-bold text-slate-700">${p.society}</span>
+          <span class="text-slate-300 font-light">·</span>
+          <span class="text-slate-500 font-medium">${p.date}</span>
         </div>
 
         <h3 class="text-2xl sm:text-4xl font-black font-display text-slate-900 leading-tight">${p.title}</h3>
